@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OnlineFastFood">
+</Property><Property Name="Solution File" Value="C:\Inetpub\wwwroot\OnlineFastFood\OnlineFastFood.sln">
+</Property><Property Name="Date" Value="Sunday, November 23, 2008">
+</Property><Property Name="Time" Value="10:56 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="OnlineFastFood.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="OnlineFastFood.sln" Description="Converted">
+</Event></UpgradeLog>

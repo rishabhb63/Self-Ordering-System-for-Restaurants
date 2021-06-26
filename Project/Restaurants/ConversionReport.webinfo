@@ -1,0 +1,164 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file OnlineFastFood.csproj at November 23 2008, 10:48:15.
+
+=========================ERRORS===================
+Error: The following files were not migrated because they were not found in the project file or the associated 'BuildAction' is set to 'None'.
+You may need to exclude these files from the project after the conversion process in order to compile your web site: 
+File List == onlinefastfood\recipesdetails.aspx,onlinefastfood\header.ascx,onlinefastfood\forgotpassword.aspx,onlinefastfood\sample.aspx,
+onlinefastfood\admin.ascx,onlinefastfood\feedback.aspx,onlinefastfood\manageitems.aspx,onlinefastfood\adminhomepage.aspx,
+onlinefastfood\orderstatusdetails.aspx,onlinefastfood\servicesmenu.ascx,onlinefastfood\contactus.aspx,onlinefastfood\vieworders.aspx,onlinefastfood\login.ascx,
+onlinefastfood\logout.aspx,onlinefastfood\userinformation.aspx,onlinefastfood\timedate.ascx,onlinefastfood\sidemenu2.ascx,
+onlinefastfood\howtoorder.aspx,onlinefastfood\backgroundimage.ascx,onlinefastfood\aboutus.aspx,onlinefastfood\fotter.ascx,
+onlinefastfood\adminfeedback.aspx,onlinefastfood\loginout.ascx,onlinefastfood\recipes.aspx,onlinefastfood\secondmenu.ascx,onlinefastfood\cartdetails.aspx,
+onlinefastfood\termsconditions.aspx,onlinefastfood\newuser.aspx,onlinefastfood\orderdetails.aspx,onlinefastfood\nutrition.aspx,onlinefastfood\homepage.aspx,
+onlinefastfood\global.asax.
+
+=========================WARNINGS=================
+Warning: If the base class of any of the code-behind classes declares page fields please add the 'CodeFileBaseClass' attribute in the corresponding Page.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Removed attribute AutoEventWireup from file AboutUs.aspx.
+Removed attribute Codebehind from file AboutUs.aspx.
+Access level of 'Page_Load' changed to 'protected' in file AboutUs.aspx.cs (Line 20).
+Removed attribute TargetSchema from file admin.ascx.
+Removed attribute AutoEventWireup from file admin.ascx.
+Removed attribute Codebehind from file admin.ascx.
+Access level of 'Page_Load' changed to 'protected' in file admin.ascx.cs (Line 16).
+Removed attribute AutoEventWireup from file adminfeedback.aspx.
+Removed attribute Codebehind from file adminfeedback.aspx.
+Access level of 'Page_Load' changed to 'protected' in file adminfeedback.aspx.cs (Line 21).
+Access level of 'Button1_Click' changed to 'protected' in file adminfeedback.aspx.cs (Line 57).
+Access level of 'Calendar1_SelectionChanged' changed to 'protected' in file adminfeedback.aspx.cs (Line 84).
+Access level of 'Button2_Click' changed to 'protected' in file adminfeedback.aspx.cs (Line 140).
+Removed attribute AutoEventWireup from file adminhomepage.aspx.
+Removed attribute Codebehind from file adminhomepage.aspx.
+Access level of 'Page_Load' changed to 'protected' in file adminhomepage.aspx.cs (Line 20).
+Removed attribute TargetSchema from file BackGroundImage.ascx.
+Removed attribute AutoEventWireup from file BackGroundImage.ascx.
+Removed attribute Codebehind from file BackGroundImage.ascx.
+Access level of 'Page_Load' changed to 'protected' in file BackGroundImage.ascx.cs (Line 16).
+Removed attribute AutoEventWireup from file CartDetails.aspx.
+Removed attribute Codebehind from file CartDetails.aspx.
+Access level of 'Page_Load' changed to 'protected' in file CartDetails.aspx.cs (Line 22).
+Access level of 'Button1_Click' changed to 'protected' in file CartDetails.aspx.cs (Line 124).
+Access level of 'Submit_Click' changed to 'protected' in file CartDetails.aspx.cs (Line 152).
+Access level of 'DropDownList1_SelectedIndexChanged' changed to 'protected' in file CartDetails.aspx.cs (Line 191).
+Access level of 'Button2_Click' changed to 'protected' in file CartDetails.aspx.cs (Line 203).
+Access level of 'DropDownList2_SelectedIndexChanged' changed to 'protected' in file CartDetails.aspx.cs (Line 226).
+Removed attribute AutoEventWireup from file ContactUs.aspx.
+Removed attribute Codebehind from file ContactUs.aspx.
+Access level of 'Page_Load' changed to 'protected' in file ContactUs.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file Feedback.aspx.
+Removed attribute Codebehind from file Feedback.aspx.
+Access level of 'Page_Load' changed to 'protected' in file Feedback.aspx.cs (Line 36).
+Access level of 'Button1_Click' changed to 'protected' in file Feedback.aspx.cs (Line 64).
+Removed attribute AutoEventWireup from file ForgotPassword.aspx.
+Removed attribute Codebehind from file ForgotPassword.aspx.
+Access level of 'Page_Load' changed to 'protected' in file ForgotPassword.aspx.cs (Line 23).
+Access level of 'Button1_Click' changed to 'protected' in file ForgotPassword.aspx.cs (Line 54).
+Access level of 'Button2_Click' changed to 'protected' in file ForgotPassword.aspx.cs (Line 74).
+Removed attribute TargetSchema from file Fotter.ascx.
+Removed attribute AutoEventWireup from file Fotter.ascx.
+Removed attribute Codebehind from file Fotter.ascx.
+Access level of 'Page_Load' changed to 'protected' in file Fotter.ascx.cs (Line 16).
+Access level of 'lbterncon_Click' changed to 'protected' in file Fotter.ascx.cs (Line 40).
+Access level of 'lbcopyright_Click' changed to 'protected' in file Fotter.ascx.cs (Line 45).
+Removed attribute Codebehind from file Global.asax.
+Removed attribute TargetSchema from file Header.ascx.
+Removed attribute AutoEventWireup from file Header.ascx.
+Removed attribute Codebehind from file Header.ascx.
+Access level of 'Page_Load' changed to 'protected' in file Header.ascx.cs (Line 16).
+Removed attribute AutoEventWireup from file HomePage.aspx.
+Removed attribute Codebehind from file HomePage.aspx.
+Access level of 'Page_Load' changed to 'protected' in file HomePage.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file HowToOrder.aspx.
+Removed attribute Codebehind from file HowToOrder.aspx.
+Access level of 'Page_Load' changed to 'protected' in file HowToOrder.aspx.cs (Line 20).
+Removed attribute TargetSchema from file Login.ascx.
+Removed attribute AutoEventWireup from file Login.ascx.
+Removed attribute Codebehind from file Login.ascx.
+Access level of 'Page_Load' changed to 'protected' in file Login.ascx.cs (Line 20).
+Access level of 'LinkButton1_Click' changed to 'protected' in file Login.ascx.cs (Line 45).
+Access level of 'btlogin_Click' changed to 'protected' in file Login.ascx.cs (Line 50).
+Access level of 'lbchangepass_Click' changed to 'protected' in file Login.ascx.cs (Line 99).
+Removed attribute TargetSchema from file loginout.ascx.
+Removed attribute AutoEventWireup from file loginout.ascx.
+Removed attribute Codebehind from file loginout.ascx.
+Access level of 'Page_Load' changed to 'protected' in file loginout.ascx.cs (Line 16).
+Removed attribute AutoEventWireup from file Logout.aspx.
+Removed attribute Codebehind from file Logout.aspx.
+Access level of 'Page_Load' changed to 'protected' in file Logout.aspx.cs (Line 19).
+Removed attribute AutoEventWireup from file ManageItems.aspx.
+Removed attribute Codebehind from file ManageItems.aspx.
+Access level of 'Page_Load' changed to 'protected' in file ManageItems.aspx.cs (Line 23).
+Access level of 'LinkButton1_Click' changed to 'protected' in file ManageItems.aspx.cs (Line 75).
+Access level of 'Button1_Click' changed to 'protected' in file ManageItems.aspx.cs (Line 91).
+Access level of 'Button2_Click' changed to 'protected' in file ManageItems.aspx.cs (Line 145).
+Access level of 'DataGrid1_SelectedIndexChanged' changed to 'protected' in file ManageItems.aspx.cs (Line 151).
+Removed attribute AutoEventWireup from file NewUser.aspx.
+Removed attribute Codebehind from file NewUser.aspx.
+Access level of 'Page_Load' changed to 'protected' in file NewUser.aspx.cs (Line 24).
+Access level of 'txtbttn_Click' changed to 'protected' in file NewUser.aspx.cs (Line 51).
+Access level of 'txtpassword_TextChanged' changed to 'protected' in file NewUser.aspx.cs (Line 109).
+Removed attribute AutoEventWireup from file Nutrition.aspx.
+Removed attribute Codebehind from file Nutrition.aspx.
+Access level of 'Page_Load' changed to 'protected' in file Nutrition.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file OrderDetails.aspx.
+Removed attribute Codebehind from file OrderDetails.aspx.
+Access level of 'Page_Load' changed to 'protected' in file OrderDetails.aspx.cs (Line 28).
+Access level of 'Button2_Click' changed to 'protected' in file OrderDetails.aspx.cs (Line 84).
+Access level of 'Calendar1_SelectionChanged' changed to 'protected' in file OrderDetails.aspx.cs (Line 149).
+Removed attribute AutoEventWireup from file OrderStatusDetails.aspx.
+Removed attribute Codebehind from file OrderStatusDetails.aspx.
+Access level of 'Page_Load' changed to 'protected' in file OrderStatusDetails.aspx.cs (Line 20).
+Access level of 'Button1_Click' changed to 'protected' in file OrderStatusDetails.aspx.cs (Line 68).
+Removed attribute AutoEventWireup from file Recipes.aspx.
+Removed attribute Codebehind from file Recipes.aspx.
+Access level of 'Page_Load' changed to 'protected' in file Recipes.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file Recipesdetails.aspx.
+Removed attribute Codebehind from file Recipesdetails.aspx.
+Access level of 'Page_Load' changed to 'protected' in file Recipesdetails.aspx.cs (Line 24).
+Access level of 'Button1_Click' changed to 'protected' in file Recipesdetails.aspx.cs (Line 94).
+Removed attribute AutoEventWireup from file Sample.aspx.
+Removed attribute Codebehind from file Sample.aspx.
+Access level of 'Page_Load' changed to 'protected' in file Sample.aspx.cs (Line 20).
+Access level of 'Button1_Click' changed to 'protected' in file Sample.aspx.cs (Line 44).
+Removed attribute TargetSchema from file secondmenu.ascx.
+Removed attribute AutoEventWireup from file secondmenu.ascx.
+Removed attribute Codebehind from file secondmenu.ascx.
+Access level of 'Page_Load' changed to 'protected' in file secondmenu.ascx.cs (Line 16).
+Removed attribute TargetSchema from file ServicesMenu.ascx.
+Removed attribute AutoEventWireup from file ServicesMenu.ascx.
+Removed attribute Codebehind from file ServicesMenu.ascx.
+Access level of 'Page_Load' changed to 'protected' in file ServicesMenu.ascx.cs (Line 16).
+Removed attribute TargetSchema from file sidemenu2.ascx.
+Removed attribute AutoEventWireup from file sidemenu2.ascx.
+Removed attribute Codebehind from file sidemenu2.ascx.
+Access level of 'Page_Load' changed to 'protected' in file sidemenu2.ascx.cs (Line 16).
+Removed attribute AutoEventWireup from file TermsConditions.aspx.
+Removed attribute Codebehind from file TermsConditions.aspx.
+Access level of 'Page_Load' changed to 'protected' in file TermsConditions.aspx.cs (Line 20).
+Removed attribute TargetSchema from file TimeDate.ascx.
+Removed attribute AutoEventWireup from file TimeDate.ascx.
+Removed attribute Codebehind from file TimeDate.ascx.
+Access level of 'Page_Load' changed to 'protected' in file TimeDate.ascx.cs (Line 16).
+Removed attribute AutoEventWireup from file userinformation.aspx.
+Removed attribute Codebehind from file userinformation.aspx.
+Access level of 'Page_Load' changed to 'protected' in file userinformation.aspx.cs (Line 22).
+Removed attribute AutoEventWireup from file vieworders.aspx.
+Removed attribute Codebehind from file vieworders.aspx.
+Access level of 'Page_Load' changed to 'protected' in file vieworders.aspx.cs (Line 22).
+Access level of 'Calendar1_SelectionChanged' changed to 'protected' in file vieworders.aspx.cs (Line 59).
+Access level of 'Button1_Click' changed to 'protected' in file vieworders.aspx.cs (Line 65).
+Access level of 'DataGrid1_SelectedIndexChanged' changed to 'protected' in file vieworders.aspx.cs (Line 85).
+Added folder App_Code.
+Moved file Global.asax.cs to the App_Code\ directory.
+Moved file CShoppingCartItem.cs to the App_Code\ directory.
+Moved file AssemblyInfo.cs to the App_Code\ directory.
+Unable to convert user settings because user file C:\Documents and Settings\SatyA\VSWebCache\NET2\OnlineFastFood\OnlineFastFood.csproj.user was not found.
+Removed file OnlineFastFood.csproj.
+Removed file OnlineFastFood.csproj.webinfo.
+Project OnlineFastFood.csproj has been converted successfully at November 23 2008, 10:48:22.

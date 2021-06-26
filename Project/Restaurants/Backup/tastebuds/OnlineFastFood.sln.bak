@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AutoClassified", "http://localhost/OnlineFastFood", "{C2EDAA38-1AD2-43A2-A5A4-4EACA02814A7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/OnlineFastFood"
+		Debug.AspNetCompiler.PhysicalPath = "..\OnlineFastFood\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\OnlineFastFood\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/OnlineFastFood"
+		Release.AspNetCompiler.PhysicalPath = "..\OnlineFastFood\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\OnlineFastFood\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\OnlineFastFood\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Release|.NET = Release|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09854046-9C12-4E76-AB73-8A49A5FB5F4D}.Debug|.NET.ActiveCfg = Debug|.NET
+		{09854046-9C12-4E76-AB73-8A49A5FB5F4D}.Debug|.NET.Build.0 = Debug|.NET
+		{09854046-9C12-4E76-AB73-8A49A5FB5F4D}.Release|.NET.ActiveCfg = Release|.NET
+		{09854046-9C12-4E76-AB73-8A49A5FB5F4D}.Release|.NET.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

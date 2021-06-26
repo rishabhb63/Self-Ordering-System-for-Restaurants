@@ -1,0 +1,88 @@
+
+#imouter0 {  /* Main Menu Container */
+
+	background-color:Transparent;
+	border-style:none;
+	border-color:#6a6a6a;
+	border-width:1px;
+	padding:0px;
+	margin:0px;
+
+}
+
+
+
+#imenus0 li a {  /* Main Menu Items */
+
+	color:Green;
+	text-align:left;
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:normal;
+	text-decoration:none;
+	border-style:solid;
+	border-color:Black;
+	border-width:1px;
+	padding:2px 8px;
+
+}
+
+
+
+#imenus0 li a.ihover {  /* Main Menu Items [hover] */
+
+	background-color:Transparent;
+	text-decoration:none;
+
+}
+
+#imenus0 li a.iactive {  /* Main Menu Items [active] */
+
+	background-color:Transparent;
+
+}
+
+
+
+#imenus0 li ul {  /* Sub Menu Container */
+
+	filter:progid:DXImageTransform.Microsoft.Fade(duration=0.3);
+	background-color:Transparent;
+	border-style:solid;
+	border-color:Black;
+	border-width:1px;
+	padding:3px;
+	margin:4px 0px 0px;
+
+}
+
+
+
+#imenus0 ul a {  /* Sub Menu Items */
+
+	color:Black;
+	text-align:left;
+	font-size:10px;
+	font-weight:normal;
+	text-decoration:none;
+	border-style:none;
+	border-color:Black;
+	border-width:1px;
+	padding:2px 5px;
+
+}
+
+
+
+#imenus0 ul li a.ihover {  /* Sub Menu Items [hover] */
+
+	color:#000000;
+	text-decoration:underline;
+
+}
+
+#imenus0 ul li a.iactive {  /* Sub Menu Items [active] */
+
+	background-color:#ffffff;
+
+}

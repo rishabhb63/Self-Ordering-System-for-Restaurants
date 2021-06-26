@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="coding">
+</Property><Property Name="Solution File" Value="F:\Finalized Projects\tastebuds\tastebuds\tastebuds\coding.sln">
+</Property><Property Name="User Options File" Value="F:\Finalized Projects\tastebuds\tastebuds\tastebuds\coding.suo">
+</Property><Property Name="Date" Value="Παρασκευή, 21 Οκτωβρίου 2011">
+</Property><Property Name="Time" Value="16:40 μμ">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="coding.sln" Description="File successfully backed up as F:\Finalized Projects\tastebuds\tastebuds\tastebuds\Backup\coding.sln">
+</Event><Event ErrorLevel="0" Project="" Source="coding.suo" Description="File successfully backed up as F:\Finalized Projects\tastebuds\tastebuds\tastebuds\Backup\coding.suo">
+</Event><Event ErrorLevel="1" Project="tastebuds" Source="..\tastebuds" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="" Source="coding.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="coding.sln" Description="Converted">
+</Event></UpgradeLog>
